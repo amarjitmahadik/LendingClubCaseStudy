@@ -1,52 +1,34 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> This project involves a comprehensive Exploratory Data Analysis (EDA) of the Lending Club dataset with the objective of uncovering insights into how various consumer and loan attributes influence the tendency of borrowers to default. Lending Club, a peer-to-peer lending platform, provides a rich dataset encompassing numerous factors such as loan amounts, interest rates, employment information, credit history, and more.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Objective:
+The primary goal is to identify patterns, correlations, and trends that can indicate the likelihood of loan defaults. By analyzing these factors, we aim to provide valuable insights that could assist Lending Club in enhancing their risk assessment models, tailoring their lending strategies, and ultimately reducing the incidence of loan defaults.
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Key Aspects of Analysis:
+- **Data Cleaning and Preprocessing:** Addressing missing values, outliers, and data inconsistencies to prepare a robust dataset for analysis
+- **Univariate Analysis:** Examining individual variables such as loan amount, interest rates, annual income, and credit scores to understand their distribution and general characteristics.
+- **Bivariate and Multivariate Analysis:** Exploring relationships between multiple variables, such as the impact of loan amount and income on default rates, or how credit scores and loan purposes interact to influence default likelihood.
+- **Segmented Analysis:** Diving deeper into specific segments like loan terms, employment length, and home ownership status to analyze their effect on default tendencies.
+- **Visualizations:** Employing various graphical techniques like histograms, box plots, scatter plots, and heat maps to visualize findings and trends effectively.
+- **Insight Generation:** Drawing meaningful conclusions and actionable insights that can aid in decision-making processes for risk management and loan approval criteria.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+LendingClub has grown consistently over the period of years. However the defaults have also grown by the same rate. Few considerations that LC should have are as below:
+- LendingClub should issue long term loans (60 months term) for Grade A cases only as other grades have higher tendency to default
+- There is a higher tendancy to default when loan amount is hight. LC should perform higher due diligence in such cases
+- Higher interest rates are levied to compensate for high risk loans. However there is a higher tendency to default when interest rates are higher. Implement stricter loan amount limits based on the borrower’s income and credit history. Lower limits for those with lower incomes or poorer credit scores could reduce default rates.
+- LC should perform higher due diligence for the loans issued to borrowers from CA, FL and NY
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- We used pandas for data analysis
+- matplotlib.pyplot and seaborn were used for data visualization
+- The entire analysis has been carried out in python 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was submitted as a part of AI ML Course by IIIT - B and upgrad
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@amarjitmahadik] - feel free to contact me!
